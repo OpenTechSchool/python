@@ -18,7 +18,7 @@ In einem Mitmach-Workshop wollen wir Euch das Programmieren näherbringen. Als B
 
 Wir sprechen DEUTSCH und/oder ENGLISCH.
 
-**Was Du benötigst:** Bring’ deinen Laptop mit (oder lass uns wissen, wenn Du einen brauchst) und sei einfach neugierig, wie das Programmieren und Websites funktionieren. Das ganze Wochenende ist kostenfrei. Jeder und jede ist willkommen!
+**Was Du benötigst:** Bring’ deinen Laptop mit (oder sag Bescheid, wenn Du einen brauchst) und sei einfach neugierig, wie das Programmieren und Websites funktionieren. Das ganze Wochenende ist kostenfrei. Jeder und jede ist willkommen!
 
 ## → [Melde dich jetzt an! Die Teilnehmeplätze sind begrenzt.](https://docs.google.com/spreadsheet/viewform?formkey=dFdOY0NHNDRlc2dIbDF2YW55UWNEYmc6MQ)
 
@@ -30,4 +30,4 @@ co.up, Berlin Coworking Space<br />
 
 --------------------
 
-Du bist generell am Programmieren interessiert, aber kannst an diesem Workshop nicht teilnehmen? Oder du möchtest lieber eine andere Programmiersprache lernen? Oder du kannst schon programmieren und wärst gerne ein Tutor? Dann melde Dich bei der [Open Tech School Berlin](http://opentechschool.org)! Wir organisieren noch weitere Workshops, Events und Treffen.
+Du bist generell am Programmieren interessiert, aber kannst an diesem Workshop nicht teilnehmen? Oder Du möchtest lieber eine andere Programmiersprache lernen? Oder Du kannst schon programmieren und wärst gerne ein Tutor? Dann melde Dich bei der [Open Tech School Berlin](http://opentechschool.org)! Wir organisieren noch weitere Workshops, Events und Treffen.

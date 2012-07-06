@@ -7,6 +7,12 @@ body {
 .column {
   width: 620px;
   margin: 20px auto;
+  position: relative;
+}
+#language_link {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 h1 {
   padding-top:24pt;

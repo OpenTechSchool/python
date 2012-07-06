@@ -2,6 +2,8 @@
 layout: js-workshop
 title: JavaScript for Absolute Beginners
 permalink: js/javascript-for-absolute-beginners.html
+alternate_language_link: ./javascript-fuer-absolute-beginner.html
+alternate_language_text: Deutsch
 ---
 
 # {{ page.title }} <span class="highlight">FREE</span>

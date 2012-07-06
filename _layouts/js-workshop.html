@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=640" />
     <link rel="stylesheet" href="/opentechschool/stylesheets/js-workshop.css" media="screen"/>
     <link rel="stylesheet" href="/opentechschool/stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="/stylesheets/js-workshop.css" media="screen"/>
+    <link rel="stylesheet" href="/stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
     <title>{{ page.title }} – Open Tech School</title>
   </head>
   <body>
     <div class="column">
-    {{ content }}
+<a href="{{ page.alternate_language_link }}" id="language_link">{{ page.alternate_language_text }}</a>
+{{ content }}
     </div>
   </body>
 </html>

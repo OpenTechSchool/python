@@ -96,7 +96,7 @@ a, a:hover, a:visited {
 
 #inner-container {
     width: 450px;
-    margin: 120px auto 20px auto;
+    margin: 6em auto 1.5em auto;
     text-align: center;
 }
 
@@ -110,7 +110,7 @@ a, a:hover, a:visited {
 
 #introduction {
     padding: 10px 15px;
-    text-align: justify;
+    text-align: left;
 }
 
 

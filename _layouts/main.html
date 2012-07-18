@@ -32,38 +32,56 @@
 
 <body>
 
+  <nav class="meta_nav">
+    <div class="container">
+      <a href="https://twitter.com/opentechschool" class="twitter-follow-button" data-show-count="false">Follow @opentechschool</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FOpenTechSchool&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=21" scrolling="no" frameborder="0"
+        style="border:none; overflow:hidden; width:80px; height:24px;"
+        allowTransparency="true">
+
+      </iframe>
+    </div>
+  </nav>
+
   <header class="site_header">
     <div class="container">
-      <div class="row">
-        <div class="eightcol">
-          <h1>
-            OpenTechSchool
-            <i>Berlin</i>
-          </h1>
-          <h2>Bringing free tech workshops to women and their friends</h2>
+      <h1>
+        OpenTechSchool
+        <i>Berlin</i>
+      </h1>
 
-        </div>
-        <div class="fourcol last">
-          <div id="socialshare">
-            <div id="socialshareprivacy"></div>
-          </div>
-        </div>
-      </div>
+
+      <nav>
+        <ul class="nav_list">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="/#events">events</a>
+          </li>
+          <li>
+            <a href="#coaches">Coaches</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+
     </div>
   </header>
 
-
-  <div class="site_header full_bg">
+<!--   <div class="full_bg main_img">
     <div class="container">
-      <div class="row">
 
-        <h1>full width img goes here</h1>
+      <img src="http://farm8.staticflickr.com/7226/7228879392_e6fb6877f1_b.jpg" alt="">
 
-      </div>
     </div>
   </div>
-
-
+ -->
 
   <div class="container">
     {{ content }}
@@ -71,11 +89,11 @@
 
   <footer class="full_bg">
     <div class="container">
-      <div class="row">
-        <p>
-          © 2011-2012 by <a href="http://www.opentechschool.org">OpenTechSchool</a>&nbsp;&nbsp;||&nbsp;&nbsp;Picture by <a href="http://www.flickr.com/photos/lapetiteclaudine/48410895/">La Petit Claudine</a> on Flickr
-        </p>
-      </div>
+
+      <p>
+        © 2011-2012 by <a href="http://www.opentechschool.org">OpenTechSchool</a>&nbsp;&nbsp;||&nbsp;&nbsp;<a href="/imprint.html">Imprint</a>
+      </p>
+
     </div>
   </footer>
 
@@ -83,33 +101,6 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
-  <script src="js/supersized.3.1.3.min.js"></script>
-  <script src="js/jquery.socialshareprivacy.min.js"></script>
-  <script type="text/javascript">
-    $(function() {
-      slideshow_interval = 0;
-      $.supersized({
-          slides: [{'image': 'images/it_uni_copen_2.jpg'}]
-      });
-      $('#socialshareprivacy').socialSharePrivacy({
-          services: {
-              facebook: {
-                  dummy_img : 'images/socialshareprivacy/dummy_facebook_en.png',
-                  txt_info: '2-Click-Privacy-Protection-System: Only when you click here, will the sharing be activated and data send to Facebook. Click a second time to share this Page on Facebook.',
-                  language: 'en_US'
-              },
-              twitter : {
-                txt_info: 'Tweet this link',
-                  txt_info: '2-Click-Privacy-Protection-System: Only when you click here, will the sharing be activated and data send to Twitter. Click a second time to share this Page on Twitter.',
-              },
-              gplus: {
-                txt_info: '2-Click-Privacy-Protection-System: Only when you click here, will the sharing be activated and data send to Google. Click a second time to share this Page on Google+',
-                language: 'en'
-              }
-            }
-        });
-      });
-  </script>
   <!--[if lt IE 7 ]>
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
     <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>

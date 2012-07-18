@@ -8,8 +8,8 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-body { margin: 0; font-size: 13px; line-height: 1.231; }
-body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 16px; line-height: 1.5; }
+body, button, input, select, textarea { font-family: "Pluto Sans", "Helvetica Neue", Arial, Helvetica, sans-serif; color: #222; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -66,43 +66,18 @@ td { vertical-align: top; }
    Author: Benjamin Kampmann
    ========================================================================== */
 
-body {
-    color: #DDD;
-    font-size: 13px;
-    line-height: 20px;
+a,
+a:link,
+a:visited {
+  color: #085785;
+  text-decoration: none;
 }
 
-strong {
-    letter-spacing: 0.07em;
-}
-
-h1 {
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 48px;
-    margin-top: 30px;
-
-    }
-
-h2 {
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 22px;
-}
-
-a, a:hover, a:visited {
-    text-decoration: none;
-    color: #B35151;
-}
-
-
-#inner-container {
-    width: 450px;
-    margin: 6em auto 1.5em auto;
-    text-align: center;
-}
-
-#introduction {
-    padding: 10px 15px;
-    text-align: left;
+a:hover,
+a:active,
+a:focus {
+  color: #0c709d;
+  text-decoration: underline;
 }
 
 label,
@@ -114,12 +89,7 @@ textarea {
   font-weight: normal;
   line-height: 18px;
 }
-input,
-button,
-select,
-textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 label {
   display: block;
   margin-bottom: 5px;
@@ -175,36 +145,6 @@ input:focus, textarea:focus {
 
 
 
-#supersized-loader { display:none; position:absolute; top:50%; left:50%; z-index:10; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background-color:#111; background:rgba(0,0,0,0.8) url(../images/progress.gif) no-repeat center center; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
-
-#supersized { position:fixed; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
-  #supersized img{ width:auto; height:auto; position:relative; display:none; outline:none; border:none; }
-    #supersized.speed img { -ms-interpolation-mode:nearest-neighbor; image-rendering: -moz-crisp-edges; } /*Speed*/
-    #supersized.quality img { -ms-interpolation-mode:bicubic; image-rendering: optimizeQuality; }     /*Quality*/
-
-  #supersized a { z-index:-30; position:absolute; overflow:hidden; top:0; left:0; width:100%; height:100%; background:#111;}
-    #supersized a.prevslide { z-index:-20; }
-    #supersized a.activeslide { z-index:-10; }
-    #supersized a.prevslide img, #supersized a.activeslide img{ display:inline; }
-
-/*Controls Section*/
-#controls-wrapper { margin:0 auto; height:62px; width:100%; bottom:0; left:0; z-index:4; background:url(../img/nav-bg.png) repeat-x; position:fixed; }
-  #controls { overflow:hidden; height:100%; text-align:left; z-index:5; padding:0 114px; /* Increase padding to give thumbnails room */ }
-    #slidecounter { float:left; color:#888; font:23px "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; text-shadow:#000 0 -1px 0; margin:19px 10px 18px 20px; }
-    #slidecaption { overflow:hidden; float:left; color:#FFF; font:16px "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold; text-shadow:#000 0 2px 0; margin:23px 20px 23px 0; }
-    #navigation { float:right; margin:10px 20px 0 0; }
-
-/*Thumbnail Navigation*/
-#nextthumb,#prevthumb { z-index:6; display:none; position:fixed; bottom:12px; height:75px; width:100px; overflow:hidden; background:#ddd; border:2px solid #fff; -webkit-box-shadow:0 0 5px #000; }
-  #nextthumb { right:12px; }
-  #prevthumb { left:12px; }
-    #nextthumb img, #prevthumb img { width:150px; height:auto;  }
-    #nextthumb:active, #prevthumb:active { bottom:10px; }
-    #navigation > :hover,#nextthumb:hover, #prevthumb:hover { cursor:pointer; }
-
-
-
-
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
@@ -247,27 +187,77 @@ body {
 /* ! Shared styles, OTS branding */
 /* ========================================== */
 
+body {
+  line-height: 1.5em;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
 .full_bg {
   margin: 0;
   padding: .5em 0;
-  background: rgba(0,0,0,.25);
+  background: rgba(8,89,135,.25);
+}
+
+.site_header {
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #085987;
+  font-weight: bold;
 }
 
 .site_header h1 {
-  color: #FFF;
+  font-size: 2em;
+  line-height: 1.5;
+  color: #085987;
+  text-align: center;
+  border-bottom: 1px solid #085987;
+}
+
+.site_header h1 i {
+  font-size: .5em;
+  color: #085987;
+  font-style: italic;
+  display: block;
+}
+
+.meta_nav {
+  height: 21px;
+  padding: 4px 0;
+  font-size: 12px;
+  background: #085987;
+}
+
+.meta_nav iframe {
+  float: right;
+  margin-left: 6px;
 }
 
 
+.nav_list {
+  text-align: center;
+}
 
+.nav_list li {
+  display: inline;
+}
+
+.nav_list li a {
+  display: inline-block;
+  padding: 0 1.5em;
+  text-transform: uppercase;
+}
+
+.main_img {
+  text-align: center;
+  height: 24em;
+  overflow: hidden;
+}
 
 
 /* ==|== non-semantic helper classes ======================================== */
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
-.ir br { display: none; }
-.hidden { display: none !important; visibility: hidden; }
-.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
-.invisible { visibility: hidden; }
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }

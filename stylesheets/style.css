@@ -8,7 +8,7 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-body { margin: 0; font-size: 16px; line-height: 1.5; }
+body { margin: 0; font-size: 18px; line-height: 1.5; }
 body, button, input, select, textarea { font-family: "Pluto Sans", "Helvetica Neue", Arial, Helvetica, sans-serif; color: #222; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -61,10 +61,11 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
+/* ========================================== */
+/* ! Shared styles, OTS branding */
+/* ========================================== */
 
-/* ==|== primary styles =====================================================
-   Author: Benjamin Kampmann
-   ========================================================================== */
+
 
 a,
 a:link,
@@ -76,116 +77,10 @@ a:visited {
 a:hover,
 a:active,
 a:focus {
-  color: #0c709d;
+  color: #1F8AB6;
   text-decoration: underline;
 }
 
-label,
-input,
-button,
-select,
-textarea {
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 18px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  color: #333333;
-}
-input,
-textarea,
-select,
-.uneditable-input {
-  display: inline-block;
-  width: 210px;
-  height: 18px;
-  padding: 4px;
-  margin-bottom: 9px;
-  font-size: 13px;
-  line-height: 18px;
-  color: #555555;
-  border: 1px solid #ccc;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-.uneditable-textarea {
-  width: auto;
-  height: auto;
-}
-label input, label textarea, label select {
-  display: block;
-}
-
-
-
-input, textarea {
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
-  transition: border linear 0.2s, box-shadow linear 0.2s;
-}
-input:focus, textarea:focus {
-  border-color: rgba(82, 168, 236, 0.8);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  outline: 0;
-  outline: thin dotted \9;
-  /* IE6-9 */
-
-}
-
-
-
-/* ============================== */
-/* ! Layout for desktop version   */
-/* ============================== */
-
-body {
-
-}
-
-
-
-/* ============================= */
-/* ! Layout for mobile version   */
-/* ============================= */
-
-@media handheld, only screen and (max-width: 767px) {
-
-  body {
-
-  }
-
-}
-
-
-/* ========================================== */
-/* ! Provide higher res assets for iPhone 4   */
-/* ========================================== */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
-
-/*  .logo {
-    background: url(logo2x.jpg) no-repeat;
-    background-size: 212px 303px;
-  }*/
-
-}
-
-
-
-/* ========================================== */
-/* ! Shared styles, OTS branding */
-/* ========================================== */
 
 body {
   line-height: 1.5em;
@@ -195,39 +90,64 @@ p {
   margin-bottom: 1.5em;
 }
 
-.full_bg {
-  margin: 0;
-  padding: .5em 0;
-  background: rgba(8,89,135,.25);
+section {
+  padding: 1em 1em 4.5em 1em;
 }
 
-.site_header {
+
+.bg_full {
+  margin: 0;
+/*  background: #f6f8eb;*/
 }
+
 h1, h2, h3, h4, h5, h6 {
-  color: #085987;
   font-weight: bold;
 }
 
-.site_header h1 {
-  font-size: 2em;
-  line-height: 1.5;
-  color: #085987;
+h2 {
   text-align: center;
-  border-bottom: 1px solid #085987;
+  border-bottom: 1px solid #EEE;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 1.5em;
 }
 
-.site_header h1 i {
-  font-size: .5em;
-  color: #085987;
-  font-style: italic;
+h2 span {
+  background: #FFF;
+  padding: .5em 1em;
+  position: relative;
+  bottom: -.5em;
+}
+
+.ots_logo {
+  width: 304px;
+  margin: 2em auto .5em auto;
+}
+
+.ots_logo a {
+  width: 304px;
+  height: 100px;
+  margin-bottom: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
   display: block;
+  background: transparent url("../images/ots_logo_v.png") no-repeat 0 0;
 }
 
+.ots_logo a:focus, .ots_logo a:hover, .ots_logo a:active {
+  outline: none;
+  background-position: 0 -140px;
+  outline: none;
+}
+
+footer,
 .meta_nav {
   height: 21px;
   padding: 4px 0;
   font-size: 12px;
   background: #085987;
+  color: #FFF;
 }
 
 .meta_nav iframe {
@@ -235,9 +155,31 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 6px;
 }
 
+footer {
+  text-align: center;
+  padding: 3em 0;
+  height: auto;
+}
+
+footer a,
+footer a:link,
+footer a:visited {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color: #FFF;
+  text-decoration: underline;
+}
+
 
 .nav_list {
   text-align: center;
+  font-size: .8em;
+  padding: 2em;
 }
 
 .nav_list li {
@@ -255,6 +197,79 @@ h1, h2, h3, h4, h5, h6 {
   height: 24em;
   overflow: hidden;
 }
+
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+@media handheld, only screen and (min-width: 768px) {
+
+  body {
+
+  }
+  .cols {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+  }
+
+  .container_small {
+    padding: 0 25%;
+  }
+  
+
+}
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+  body {
+
+  }
+
+}
+
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 640px) {
+
+  body {
+
+  }
+
+  .nav_list li a {
+    display: block;
+    padding: 1em 0;
+  }
+  
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+/*  .logo {
+    background: url(logo2x.jpg) no-repeat;
+    background-size: 212px 303px;
+  }*/
+
+}
+
 
 
 /* ==|== non-semantic helper classes ======================================== */

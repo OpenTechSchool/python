@@ -23,11 +23,6 @@
   <link rel="stylesheet" href="/stylesheets/calendar.css" media="screen"/>
 
   <!-- end CSS-->
-
-  <!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
-  <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
-
-
 </head>
 
 <body>
@@ -47,11 +42,10 @@
 
   <header class="site_header">
     <div class="container">
-      <h1>
-        OpenTechSchool
-        <i>Berlin</i>
-      </h1>
 
+      <h1 class="ots_logo">
+        <a href="/">OpenTechSchool</a>
+      </h1>
 
       <nav>
         <ul class="nav_list">
@@ -59,17 +53,16 @@
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="/#events">events</a>
-          </li>
-          <li>
-            <a href="#coaches">Coaches</a>
-          </li>
-          <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="/#events">Events</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
           </li>
         </ul>
       </nav>
-
 
     </div>
   </header>
@@ -83,15 +76,14 @@
   </div>
  -->
 
-  <div class="container">
-    {{ content }}
-  </div>
+  {{ content }}
 
-  <footer class="full_bg">
+
+  <footer>
     <div class="container">
 
       <p>
-        © 2011-2012 by <a href="http://www.opentechschool.org">OpenTechSchool</a>&nbsp;&nbsp;||&nbsp;&nbsp;<a href="/imprint.html">Imprint</a>
+        © 2011-2012 by <a href="http://www.opentechschool.org">OpenTechSchool</a><!-- &nbsp;&nbsp;||&nbsp;&nbsp;<a href="/imprint.html">Imprint</a> -->
       </p>
 
     </div>

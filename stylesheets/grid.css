@@ -1,10 +1,11 @@
 .container {
 width: 100%;
-max-width: 755px;
+max-width: 1020px;
 min-width: 755px;
 margin: 0 auto;
 overflow: hidden;
 }
+
 
 img, object, embed {
 max-width: 100%;
@@ -20,11 +21,10 @@ img {
 @media only screen and (max-width: 1023px) {
 
   body {
-  font-size: 0.8em;
-  line-height: 1.5em;
-  }
   
   }
+  
+}
 
 
 /* Mobile */
@@ -39,10 +39,16 @@ img {
   body, .container {
   width: 100%;
   min-width: 0;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  }
+  
+  .container {
+  width: 94%;
+  padding-left: 3%;
+  padding-right: 3%;
   }
   
 }

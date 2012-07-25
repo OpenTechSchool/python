@@ -90,9 +90,6 @@ p {
   margin-bottom: 1.5em;
 }
 
-section {
-  padding: 1em 1em 4.5em 1em;
-}
 
 
 .bg_full {
@@ -220,7 +217,11 @@ footer a:focus {
   .container_small {
     padding: 0 25%;
   }
-  
+
+
+  section {
+    padding: 1em 1em 4.5em 1em;
+  }
 
 }
 
@@ -233,6 +234,10 @@ footer a:focus {
 
   body {
 
+  }
+
+  section {
+    padding: 1em 1em 1.5em 1em;
   }
 
 }
@@ -253,7 +258,7 @@ footer a:focus {
     display: block;
     padding: 1em 0;
   }
-  
+
 }
 
 

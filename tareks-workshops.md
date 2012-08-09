@@ -21,10 +21,6 @@ I will give out a more clear outline during the first session, perhaps also to s
 ## Workshop 2: Web Development
 
 <p class="cols">
-These are sessions I would also like to hold for people who are interested in Web Development. I used to carry out similar workshops last year, so I still have the outline which wouldn't be much different, you can check it out here: http://sessions.tgalal.com/ Absolute beginners are also welcome to these sessions but, most probably I will not go into Javascript or any server-side programming (which is not necessarily PHP)  unless they do know programming basics, whether as a previous knowledge or from attending the programming workshop.
-<br>
-So I'd love to provide these 2 workshops in parallel during the 3 weeks I'm staying here in Berlin. I can start any day so it would be great if you maybe you or the guys in Open Tech School to create an event at least for the intro, and then I talk with the attendees during the session and see the most suitable times and take it from there.
-</p>
-As for the limit to number of attendees, I think only people who attended yesterday's meetup are those to get invited. For programming workshops I wouldn't set a limit to that since there weren't too many absolute beginners in programming yesterday. As for Web development Workshop, maybe 10 would be good to handle. Unless you know someone who could help then we maybe have bigger number.
-<br>
+These are sessions I would also like to hold for people who are interested in Web Development. I used to carry out similar workshops last year, so I still have the outline which wouldn't be much different, you can check it out here: http://sessions.tgalal.com/ Absolute beginners are also welcome to these sessions but, most probably I will not go into Javascript or any server-side programming (which is not necessarily PHP) unless students do know programming basics, whether as a previous knowledge or from attending the programming workshop.
+
 

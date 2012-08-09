@@ -22,5 +22,5 @@ I will give out a more clear outline during the first session, perhaps also to s
 
 <p class="cols">
 These are sessions I would also like to hold for people who are interested in Web Development. I used to carry out similar workshops last year, so I still have the outline which wouldn't be much different, you can check it out here: http://sessions.tgalal.com/ Absolute beginners are also welcome to these sessions but, most probably I will not go into Javascript or any server-side programming (which is not necessarily PHP) unless students do know programming basics, whether as a previous knowledge or from attending the programming workshop.
-
+</p>
 

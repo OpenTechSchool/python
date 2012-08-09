@@ -119,6 +119,7 @@ h2 span {
 .ots_logo {
   width: 304px;
   margin: 2em auto .5em auto;
+  color: #085987;
 }
 
 .ots_logo a {
@@ -145,6 +146,7 @@ footer,
   font-size: 12px;
   background: #085987;
   color: #FFF;
+  
 }
 
 .meta_nav iframe {
@@ -159,8 +161,11 @@ footer {
 }
 
 footer a,
+.meta_nav a,
 footer a:link,
-footer a:visited {
+.meta_nav a:link, 
+footer a:visited,
+.meta_nav a:visited {
   color: #FFF;
   text-decoration: underline;
 }

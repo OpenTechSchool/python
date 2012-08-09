@@ -9,7 +9,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body { margin: 0; font-size: 18px; line-height: 1.5; }
-body, button, input, select, textarea { font-family: "Pluto Sans", "Helvetica Neue", Arial, Helvetica, sans-serif; color: #222; }
+body, button, input, select, textarea { font-family: "proxima-nova-alt", "Helvetica Neue", Arial, Helvetica, sans-serif; color: #222; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -137,6 +137,13 @@ h2 span {
   outline: none;
   background-position: 0 -140px;
   outline: none;
+}
+
+.workshop_title {
+  width: 50%;
+  text-align: center;
+  margin: 2em auto .5em auto;
+  color: #085987;
 }
 
 footer,

@@ -146,6 +146,25 @@ h2 span {
   color: #085987;
 }
 
+.team_list {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.team_list li.member {
+  padding: 0 10px;
+  max-width: 235px;
+  float: left;
+}
+
+.team_list ul {
+  list-style: none;
+  padding: 0;
+}
+
+
 footer,
 .meta_nav {
   height: 21px;

@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Tareks Workshops
+title: Tarek's Workshops
 ---
 
 ## Workshop 1: Programming

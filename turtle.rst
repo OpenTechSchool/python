@@ -1,7 +1,31 @@
+
 Turtle is like a drawing board.
 
 It has functions like ``forward(...)`` and ``left(...)`` which can move the
 turtle around.
+
+::
+
+  from turtle import *
+
+.. image:: default.png
+
+::
+
+  forward(25)
+
+.. image:: forward.png
+
+::
+
+  left(30)
+
+.. image:: left.png
+
+
+The ``forward(...)`` function takes the number of pixels which you want to move
+forward, ``left(...)`` takes a number of degrees which you want to rotate to
+the left.  (There are ``backward(...)`` and ``right(...)``, too.)
 
 -------------------------------------------------------------------------------
 
@@ -9,9 +33,7 @@ turtle around.
 
 .. image:: square.png
 
-The ``forward(...)`` function takes the number of pixels which you want to move
-forward, ``left(...)`` takes a number of degrees.  For a square you will
-probably need a right angle, which is 90 degrees.
+For a square you will probably need a right angle, which is 90 degrees.
 
 **Solution:**
 
@@ -39,7 +61,7 @@ and ``color(...)`` functions.  If you cannot figure out the *signature* of a
 function (that is the syntax and semantics of it, say, number of parameters and
 their meaning) you can use ``help(color)``.
 
-.. note::
+.. caution::
 
    If you misdrew anything, you can tell turtle to erase its drawing board with
    the ``reset()`` directive.
@@ -68,7 +90,8 @@ Can you draw a (non-square) rectangle too?
 
 **Bonus:**
 
-How about a triangle?
+How about a triangle?  (A triangle with 120 degrees angles will have all legs
+equally sized.)
 
 -------------------------------------------------------------------------------
 

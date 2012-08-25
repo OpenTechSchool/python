@@ -333,7 +333,7 @@ Can you make the dashes become larger as the line progresses?
 
 **Exercise:**
 
-Take your honeycomb proram and make it easier with loops.  How small can you
+Take your honeycomb program and make it easier with loops.  How small can you
 get it?
 
 **Solution:**

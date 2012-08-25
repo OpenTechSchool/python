@@ -231,8 +231,8 @@ You can access names in functions as well::
 
   size = 50
   def line_without_moving():
-    forward(50)
-    backward(50)
+    forward(size)
+    backward(size)
 
 -------------------------------------------------------------------------------
 
